@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fff;
+}
+
+.main-container {
+  width: 80%;
+  background-color: #7777777a;
+  border-radius: 10px;
+  margin: 10px auto;
+  height: 700px;
+}
+
+.left-container {
+  width: 20%;
+  background-color: #555;
+}
+
+.right-container {
+  width: 80%;
+  background-color: #333;
+}
