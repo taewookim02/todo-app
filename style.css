@@ -1,9 +1,10 @@
-/* 
-  DEFAULTS:
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  */
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
 
 * {
   padding: 0;
@@ -11,70 +12,71 @@
   box-sizing: border-box;
 }
 
-body,
 html {
-  height: 100%;
 }
 
 body {
-  background-color: #fff;
-}
+  font-family: "Poppins", sans-serif;
+  color: #343a40;
+  font-size: 18px;
+  height: 100vh;
+  background-color: blue;
 
-.container {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  background: green;
 }
 
-.row {
-  display: flex;
-  background-color: red;
-  /* align-items: center;
-  justify-content: center; */
+.container {
+  background-color: aliceblue;
+  width: 900px;
+  height: 555.5px;
+  border-radius: 16px;
+  padding: 8px;
+
+  display: grid;
+  grid-template-columns: 275px 1fr;
+  grid-template-rows: 35px 200px 1fr 35px;
 }
 
-.row-item-1 {
-  background-color: grey;
-  flex: 1;
+.add-list {
+  grid-row: 1;
+  grid-column: 2 / 3;
+  margin-left: auto;
+  /* font-size: 14px; */
 }
 
-.row-item-2 {
-  background-color: lightgrey;
-  flex: 3;
-  align-self: stretch;
+main {
+  grid-column: 2 / -1;
+  grid-row: 2 / -1;
 }
 
-.scheduled-item-1 {
-  display: flex;
-  justify-content: space-between;
-}
+.add-list-bottom {
+  grid-row: 5;
 
-.scheduled-item-2 {
-  display: flex;
-  justify-content: space-between;
-}
-
-.scheduled-item-1 a,
-.scheduled-item-2 a {
-  background-color: blue;
-  color: white;
-  padding: 4px;
-}
-
-header {
-  border-bottom: 2px solid black;
-}
-
-.list-item {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 12px;
 }
 
-/* RIGHT CONTAINER */
-.icon-add {
-  display: flex;
-  align-items: flex-end;
+/* SPECIFIC */
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+.dot {
+  border: none;
+  width: 13px;
+  height: 13px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.dot--orange {
+  background-color: orange;
+}
+
+.dot--green {
+  background-color: green;
 }

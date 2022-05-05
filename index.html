@@ -4,61 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Todo List</title>
+    <title>To-do List</title>
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="row-item-1">
-          <header>
-            <div class="search">
-              <form action="">
-                <input type="text" />
-                <button>🔍</button>
-              </form>
-            </div>
-            <div class="scheduled">
-              <div class="scheduled-item-1">
-                <a href="#">Today</a>
-                <a href="#">Scheduled</a>
-              </div>
-              <div class="scheduled-item-2">
-                <a href="#">All</a>
-                <a href="#">Flagged</a>
-              </div>
-            </div>
-          </header>
-          <div class="my-lists">
-            <h3>My Lists</h3>
-            <ul>
-              <li class="list-item">
-                <img src="images/icon-list.svg" alt="list icon" />
-                Today
-              </li>
-              <li class="list-item">
-                <img src="images/icon-list.svg" alt="list icon" />
-                Today
-              </li>
-              <li class="list-item">
-                <img src="images/icon-list.svg" alt="list icon" />
-                Today
-              </li>
-              <li class="list-item">
-                <img src="images/icon-list.svg" alt="list icon" />
-                Today
-              </li>
-              <li class="list-item">
-                <img src="images/icon-list.svg" alt="list icon" />
-                Today
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row-item-2">
-          <img src="images/icon-add.svg" alt="add button" class="icon-add" />
-        </div>
+      <nav>
+        <button class="dot">&nbsp;</button>
+        <button class="dot dot--orange">&nbsp;</button>
+        <button class="dot dot--green">&nbsp;</button>
+      </nav>
+      <menu>left menu bar</menu>
+      <div class="add-list">➕</div>
+      <main>main todo</main>
+      <aside>aside todo</aside>
+      <div class="add-list-bottom">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon icon--plus-circle"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+          />
+        </svg>
+        <span>Add list</span>
       </div>
     </div>
   </body>
