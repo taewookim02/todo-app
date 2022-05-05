@@ -20,7 +20,7 @@ body {
   color: #343a40;
   font-size: 18px;
   height: 100vh;
-  background-color: blue;
+  background-color: #7c44ff;
 
   display: flex;
   align-items: center;
@@ -69,14 +69,14 @@ main {
   border: none;
   width: 13px;
   height: 13px;
-  background-color: red;
+  background-color: #ff605c;
   border-radius: 50%;
 }
 
 .dot--orange {
-  background-color: orange;
+  background-color: #ffbd44;
 }
 
 .dot--green {
-  background-color: green;
+  background-color: #00ca4e;
 }
