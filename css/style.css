@@ -60,18 +60,17 @@ Medium: 11px
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 html {
   font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   color: #343a40;
-  font-size: 1.8rem;
-  height: 100vh;
   background-color: #7c44ff;
 }
 
@@ -99,4 +98,68 @@ main {
   grid-column: 2 / -1;
   grid-row: 2 / -1;
   box-shadow: 2px, 2px, 5px, rgba(0, 0, 0, 0.7);
+}
+
+.add-list {
+  grid-row: 1;
+  grid-column: 2 / 3;
+  margin-left: auto;
+}
+
+/* SPECIFIC */
+
+/* top */
+.icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.dot {
+  border: none;
+  width: 1.3rem;
+  height: 1.3rem;
+  background-color: #ff605c;
+  border-radius: 50%;
+}
+
+.dot--orange {
+  background-color: #ffbd44;
+}
+
+.dot--green {
+  background-color: #00ca4e;
+}
+
+/* .search-bar {
+  background-color: ;
+} */
+
+.icon-search {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+/* left sidebar */
+
+/* Bottom */
+
+.add-list-bottom {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+
+  font-size: 1.2rem;
+  grid-row: 4;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.icon--plus-circle {
+  width: 1.2rem;
+  height: 1.2rem;
 }
