@@ -1,6 +1,6 @@
 # vanila-todo-list
 
-<strong>Todo:</strong>
+<strong>Stuff to do:</strong>
 <ul>
   <li><del>Pick colors</del></li><br />
   <li><del>Pick font</del></li><br />
