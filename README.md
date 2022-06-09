@@ -1,11 +1,11 @@
 # vanila-todo-list
 
+## Todo:<br /><br />
 
-Todo:<br /><br />
 <ul>
-~~Pick colors~~<br />
-~~Pick font~~<br />
-Get the scroll bars working<br />
-Use JS insertAdjacentHTML to get the todo items appear and disappear<br />
-Clean up code and follow BEM
+<li>~~Pick colors~~</li><br />
+<li>~~Pick font~~</li><br />
+<li>Get the scroll bars working</li><br />
+<li>Use JS insertAdjacentHTML to get the todo items appear and disappear</li><br />
+<li>Clean up code and follow BEM</li>
 </ul>
