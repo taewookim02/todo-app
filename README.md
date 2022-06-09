@@ -10,6 +10,7 @@
   <li>Tidy up the font sizes and icon sizes</li>
   <li>Get the scroll bars working</li>
   <li>Use JS insertAdjacentHTML to get the todo items appear and disappear</li>
+  <li>Link a modal to 'Add List' button</li>
   <li>Clean up code and follow BEM</li>
   <li>Go learn node.js and MongoDB</li>
   <li>...</li>
