@@ -17,5 +17,3 @@
   <li>Profit</li>
 </ul>
 
-
-Apple reminders 
