@@ -1,7 +1,6 @@
 # vanila-todo-list
 
-## Todo:<br /><br />
-
+<strong>Todo:</strong>
 <ul>
 <li><del>Pick colors</del></li><br />
 <li><del>Pick font</del></li><br />
