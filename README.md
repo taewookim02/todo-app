@@ -1,4 +1,4 @@
-# vanila-todo-list
+# Clone-coding Apple Reminders App
 
 <strong>Stuff to do:</strong>
 
@@ -16,3 +16,6 @@
   <li>...</li>
   <li>Profit</li>
 </ul>
+
+
+Apple reminders 
