@@ -64,7 +64,7 @@ Medium: 11px
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 90.5%;
   box-sizing: border-box;
 }
 
@@ -107,4 +107,23 @@ li:nth-child(odd) {
 
 ul li:hover {
   background: #ddd;
+}
+
+ul li.checked {
+  background: #777;
+  color: #eee;
+  text-decoration: line-through;
+}
+
+.input-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  width: 80%;
+}
+
+.btn {
+  width: 20%;
 }
