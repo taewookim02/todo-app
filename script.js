@@ -24,23 +24,6 @@ ulList.addEventListener('click', function (e) {
     e.target.classList.toggle('checked');
   }
 });
-/*
-    <ul class="ul-list">
-      <li>groceries</li>
-      <li>KM assignment</li>
-      <li>SoC assignment</li>
-      <li>IBA assignment</li>
-      <li class="checked">move stuff</li>
-    </ul>
-
-// from ul, get a list of li values
-// const listItemArray = [];
-// const nodeListItems = document.querySelectorAll('li');
-// nodeListItems.forEach(val => {
-//   listItemArray.push(val.innerText);
-// });
-// console.log(listItemArray);
-*/
 
 // attach close button on each li
 nodeListItems.forEach(val => {
