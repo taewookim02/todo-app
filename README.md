@@ -1,7 +1,7 @@
-# todo app
+# Todo App
 
 ![preview image](images/preview.png)
 
-## link
+## Live Demo
 
 [https://codepen.io/taewookim02/pen/zYWxXYM](https://codepen.io/taewookim02/pen/zYWxXYM)
