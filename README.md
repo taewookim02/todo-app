@@ -1,4 +1,4 @@
-# Todo List
+# Todo App
 
 ![preview image](images/preview.png)
 
