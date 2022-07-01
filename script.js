@@ -15,7 +15,11 @@ btn.addEventListener('click', function (e) {
   input.focus();
 
   // attach input field value at the end of UL
-  ulList.insertAdjacentHTML('beforeend', `<li>${inputVal}</li>`);
+  ulList.insertAdjacentHTML(
+    'beforeend',
+    `<li>${inputVal}<span class="close">×</span></li>`
+  );
+  closeBtnAttach();
 });
 
 // class toggling when clicked on list item
@@ -35,9 +39,13 @@ nodeListItems.forEach(val => {
 });
 
 // display none when clicked on X
-const closeBtn = document.querySelectorAll('.close');
-closeBtn.forEach(val =>
-  val.addEventListener('click', function (e) {
-    this.parentElement.style.display = 'none';
-  })
-);
+const closeBtnAttach = function () {
+  const closeBtn = document.querySelectorAll('.close');
+  closeBtn.forEach(val =>
+    val.addEventListener('click', function (e) {
+      this.parentElement.style.display = 'none';
+    })
+  );
+};
+
+closeBtnAttach();

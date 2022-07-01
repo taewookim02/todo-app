@@ -7,12 +7,13 @@
 html {
   font-size: 90.5%;
   box-sizing: border-box;
+  color: #333;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
   /* color: #343a40; */
-  /* background-color: #7c44ff; */
+
   width: 100%;
   height: 100vh;
 
@@ -26,6 +27,9 @@ body {
 .header {
   margin-top: 4.8rem;
   text-align: center;
+  padding: 100px;
+  border: 1px solid #333;
+  background-color: #fff;
 }
 
 h1 {
