@@ -126,4 +126,5 @@ ul li.checked {
 
 .btn {
   width: 20%;
+  cursor: pointer;
 }
