@@ -50,10 +50,6 @@ ul li {
   position: relative;
 }
 
-li:nth-child(odd) {
-  background: #eee;
-}
-
 ul li:hover {
   background: #ddd;
 }

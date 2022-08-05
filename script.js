@@ -49,3 +49,6 @@ const closeBtnAttach = function () {
 };
 
 closeBtnAttach();
+
+// TODO:
+// Insert add when pressing enter
